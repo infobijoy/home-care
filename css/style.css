@@ -1,0 +1,7 @@
+.workingProgress {
+  padding: 20px;
+  background-color: #ddd;
+}
+.workingProgress img {
+  width: 70%;
+}
