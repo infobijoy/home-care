@@ -1,7 +1,11 @@
 .workingProgress {
   padding: 20px;
   background-color: #ddd;
+  height: 300px;
 }
 .workingProgress img {
-  width: 70%;
+  width: 30%;
+}
+.customHeight {
+  height: 286px;
 }
