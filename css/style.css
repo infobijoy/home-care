@@ -9,6 +9,22 @@
 .customHeight {
   height: 286px;
 }
+.btn-profile {
+  margin-left: 8px;
+}
+.img-control img {
+  height: 50#;
+}
+.prev-hidden,
+.next-hidden {
+  opacity: 0 !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #198754;
+}
 
 /* ====================== */
 /* For Mobile Responsive */
@@ -33,10 +49,11 @@
     font-size: 13px;
     font-weight: 300;
   }
-}
-.btn-profile {
-  margin-left: 8px;
-}
-.img-control img {
-  height: 50#;
+  .carousel-indicators {
+    margin-bottom: 0px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+  }
 }
