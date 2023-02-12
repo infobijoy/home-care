@@ -26,10 +26,7 @@
   </head>
   <body>
     <!---------Nav button start----------->
-    <nav
-      style="background: linear-gradient(#2abd78, #1dbd72)"
-      class="navbar navbar-expand-lg bg-body-tertiary"
-    >
+    <nav style="" class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Home Care</a>
         <button
@@ -83,29 +80,29 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-info for-color-btn" type="submit">
               Search
             </button>
-            <button class="btn btn-outline-success btn-profile" type="submit">
-              <i class="bi bi-person-circle"></i>
-            </button>
+            <label for="icon-label">
+              <button
+                class="btn btn-outline-info btn-profile for-color-btn"
+                type="submit"
+                id="icon-label"
+              >
+                <i
+                  id="icon-label"
+                  class="bi bi-person-circle for-color-btn"
+                ></i></button
+            ></label>
           </form>
         </div>
       </div>
     </nav>
     <!---------Nav button end----------->
 
-    <!------------Google Map Start------------>
-    <iframe
-      class="google-map-sizeing"
-      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41222.93564963434!2d91.01456841975227!3d24.04420923355698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1676182544800!5m2!1sen!2sbd"
-      width="100%"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-    <!------------Google Map End------------>
+    <!--------- Offer Img start----------->
+    <img class="img-fluid" src="./img/other's/offer-img.png" alt="" />
+    <!--------- Offer Img end----------->
 
     <!----------- Slider one start ----------->
     <div id="carouselExampleIndicators" class="carousel slide for-map-marging">
@@ -174,6 +171,63 @@
       </button>
     </div>
     <!----------- Slider one end ----------->
+
+    <!------------ Services Categories Button Start ------------>
+    <div
+      class="categories-height d-flex align-items-center justify-content-center bg-info bg-gradient"
+    >
+      <div class="row d-flex justify-content-center">
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/cleaning-disinfection.png" alt="" />
+            <p class="text-center">Cleaning & Disinfection</p>
+          </div>
+        </div>
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/electricians.png" alt="" />
+            <p class="text-center">Electricians</p>
+          </div>
+        </div>
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/carpenters.png" alt="" />
+            <p class="text-center">Carpenters</p>
+          </div>
+        </div>
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/appliance-repair.png" alt="" />
+            <p class="text-center">Appliance Repair</p>
+          </div>
+        </div>
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/plumbers.png" alt="" />
+            <p class="text-center">Plumbers</p>
+          </div>
+        </div>
+        <div class="text-center for-padding">
+          <div>
+            <img src="./img/logo/ac-service-repair.png" alt="" />
+            <p class="text-center">AC Service & Repair</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ Services Categories Button End ------------>
+
+    <!------------Google Map Start------------>
+    <iframe
+      class="google-map-sizeing"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41222.93564963434!2d91.01456841975227!3d24.04420923355698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1676182544800!5m2!1sen!2sbd"
+      width="100%"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <!------------Google Map End------------>
 
     <!---------Working water mark start----------->
     <section class="working">

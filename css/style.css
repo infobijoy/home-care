@@ -13,7 +13,6 @@
   margin-left: 8px;
 }
 .img-control img {
-  height: 50#;
 }
 .prev-hidden,
 .next-hidden {
@@ -30,6 +29,30 @@
 }
 .google-map-sizeing {
   height: 350px;
+}
+.categories-height {
+  height: 195px;
+}
+.categories-height p {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 4px 10%;
+  margin-bottom: 8px;
+}
+.categories-height img {
+  width: 32px;
+}
+.for-padding {
+  padding: 0px 5px;
+  margin-top: 15px;
+  width: 100px;
+}
+.for-color-btn {
+  color: white;
+}
+.for-color-btn:hover {
+  background: #1dd9ff;
+  color: black;
 }
 /* ====================== */
 /* For Mobile Responsive */
@@ -63,5 +86,10 @@
   }
   .google-map-sizeing {
     height: 110px;
+  }
+  .categories-height p {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px 5%;
   }
 }
