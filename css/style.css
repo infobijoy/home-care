@@ -28,6 +28,9 @@
 .for-map-marging {
   margin-top: -6px;
 }
+.google-map-sizeing {
+  height: 350px;
+}
 /* ====================== */
 /* For Mobile Responsive */
 /* ====================== */
@@ -57,5 +60,8 @@
   .carousel-indicators [data-bs-target] {
     width: 8px;
     height: 8px;
+  }
+  .google-map-sizeing {
+    height: 110px;
   }
 }
