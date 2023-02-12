@@ -25,7 +25,9 @@
   border-radius: 100%;
   background-color: #198754;
 }
-
+.for-map-marging {
+  margin-top: -6px;
+}
 /* ====================== */
 /* For Mobile Responsive */
 /* ====================== */
